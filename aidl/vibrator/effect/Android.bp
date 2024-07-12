@@ -15,6 +15,9 @@ cc_library_shared {
         "liblog",
         "libutils",
     ],
+    static_libs: [
+        "libc++fs",
+    ],
     export_include_dirs: ["."]
 }
 
